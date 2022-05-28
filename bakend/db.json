@@ -1,0 +1,29 @@
+{
+  "kontak": [
+    {
+      "id": 2,
+      "nama": "Jason Wiharja",
+      "nohp": "08346873468732"
+    },
+    {
+      "id": 3,
+      "nama": "Rudi Gunawan",
+      "nohp": "0876577788666"
+    },
+    {
+      "id": 4,
+      "nama": "Hari Sudarmaji",
+      "nohp": "0876776567567"
+    },
+    {
+      "id": 8,
+      "nama": "Jayadi",
+      "nohp": "08963423474"
+    },
+    {
+      "id": 9,
+      "nama": "Budi Gunawan",
+      "nohp": "08346873468732"
+    }
+  ]
+}
