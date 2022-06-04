@@ -3,9 +3,9 @@ import { useAppState } from '../../contexts/appState'
 import { addKontak, getKontakList, updateKontak } from '../../actions/kotakAction';
 
 function FormKontak() {
-    const [nama, setNama] = useState();
-    const [nohp, setNohp] = useState();
-    const [id, setId] = useState();
+    const [nama, setNama] = useState("");
+    const [nohp, setNohp] = useState("");
+    const [id, setId] = useState("");
     const [state, dispatch] = useAppState();
     const { addKontakResult, detailKontakResult, updateKontakResult } = state;
 

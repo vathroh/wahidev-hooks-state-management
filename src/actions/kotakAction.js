@@ -20,7 +20,7 @@ export const getKontakList = (dispatch) => {
 
     axios({
         method: 'GET',
-        url: 'http://localhost:3000/kontak',
+        url: 'https://629a33ea7b866a90ec4b8e9b.mockapi.io/api/v1/kontak',
         timeout: 120000
     })
         .then((response) => {
@@ -60,7 +60,7 @@ export const addKontak = (dispatch, data) => {
 
     axios({
         method: 'POST',
-        url: 'http://localhost:3000/kontak',
+        url: 'https://629a33ea7b866a90ec4b8e9b.mockapi.io/api/v1/kontak',
         timeout: 120000,
         data: data
     })
@@ -101,7 +101,7 @@ export const deleteKontak = (dispatch, id) => {
 
     axios({
         method: 'DELETE',
-        url: 'http://localhost:3000/kontak/' + id, 
+        url: 'https://629a33ea7b866a90ec4b8e9b.mockapi.io/api/v1/kontak/' + id, 
         timeout: 120000
     })
         .then((response) => {
@@ -150,7 +150,7 @@ export const updateKontak = (dispatch, data) => {
 
     axios({
         method: 'PUT',
-        url: 'http://localhost:3000/kontak/' + data.id, 
+        url: 'https://629a33ea7b866a90ec4b8e9b.mockapi.io/api/v1/kontak/' + data.id, 
         timeout: 120000,
         data: data
     })
